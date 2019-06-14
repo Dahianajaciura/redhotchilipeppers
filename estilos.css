@@ -1,0 +1,335 @@
+
+html {
+	width: 100%;
+	height: auto;
+
+}
+
+body {
+	width: 100%;
+	height: auto;
+	background-image: url("imagenes/fondo1.jpg");
+	background-repeat ;
+	font-family: 'Barlow Condensed', sans-serif;
+}
+
+header {
+	background: white;
+	padding: 1%;
+}
+
+
+a {
+	color:black;
+}
+
+ul.menu li{
+	display: inline-block;
+	padding: 0.5%;
+	
+	font-size: 30px;
+	font-family: 'Shadows Into Light';
+	position: relative;
+}
+
+.todos {
+	padding-left: 0;
+
+}
+
+
+.submenu {
+
+	display:none;
+	position: absolute;
+	padding: 10px;
+	left: 0px;
+	width: 80%;
+}
+
+ul.menu li:hover .submenu { display: block; }
+
+.submenu a {
+
+	border-top-style: solid;
+	padding: 4px;
+	font-size: 20px;
+	display: block;
+	background-color: white;
+
+}
+header ul.menu  a{
+	text-decoration: none;
+}
+
+ol li { 
+	color: red; 
+}
+
+li {
+	line-height: 25px;
+	font-family:'Barlow Condensed', sans-serif;
+}
+
+b { 
+	color: black; 
+ }
+
+
+#fotoc{
+	position:absolute;
+	width:550px;
+	height:350px;
+	left:50%;
+	top:50%;
+	margin-left:-150px;
+	margin-top:-100px;
+}
+
+#footer{
+  background-color: black;
+  width: 100%;
+  height: 70px;
+  color: white;
+  position: fixed; 
+  bottom:0px;
+}
+
+
+.allrights {
+	margin-top: 1%;
+
+}
+
+footer a{
+	padding: 8px;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+
+div.centratabla{
+	text-align: center;
+}
+
+div.centraTabla table {
+	margin: 0 auto;
+
+	background: none;
+}
+
+
+
+.tablashop {
+	height: 500px;
+ 	width: 500px;
+  	padding: 10px;
+  	border: 4px solid black;
+  	margin: 0 auto; 
+  	overflow: scroll;
+}
+
+
+
+.slider {
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+
+
+section .fotos {
+	width: 100%;
+	overflow: auto;
+
+}
+
+.contenedorimagenes {
+	float:left;
+
+}
+
+.test {
+	color: red;
+}
+
+
+.integrantes {
+	padding: 1%;
+	width: 100%;
+	text-align:center;
+}
+
+.columna {
+	text-align: center;
+	float: left;
+	width: 23%;
+ 	padding: 1%;
+ 	
+
+}
+
+.columna img{
+ width: 100%
+	}
+
+.contenedorintegrantes {
+	width: 95%;
+	text-align: center;
+	overflow: auto;
+}
+
+.integrante{
+	width: 50%;
+	float: left;
+}
+
+.textointegrante{
+	width:45%;
+	padding: 1%;
+	float: left;
+	text-align: left;
+	background-color: white;
+}
+
+.contenedorcollage{
+	text-align: center;
+}
+
+.contenedorhistoria{
+	width: 100%;
+}
+
+
+.textohistoria {
+	
+	background-color: white;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 20px;
+	line-height: 25px;
+ 	height: 500px;
+ 	width: 1000px;
+  	padding: 30px;
+  	border: none;
+  	margin: 0 auto; 
+  	overflow: scroll; 
+  	float: left;	
+}
+
+
+.fotohistoria img{
+	width: 350px;
+	height: 350px;
+	padding: 10%;
+}
+
+.fotohistoria {
+	float: left;
+	text-align: center;
+}
+
+
+.todos li a{
+	background-color: white;
+	width: 100%;
+	padding: 5%;
+}
+
+.todos li a:hover {
+	background-color: black;
+	color: white;
+}
+
+
+ul .submenu li {
+	display: block;
+	width: 100%;
+
+}
+
+
+.play {
+	padding: 5%;
+	width:90%;
+	overflow: auto;
+}
+
+.videoplay 	{
+	width: 49%;
+	padding: 1%;
+	float:left;
+}
+
+.tablashow 	{
+	margin: auto;
+	width: 80%;
+	padding: 1%;
+	display: inline-block;
+
+}
+
+
+.thead .proximoshows{
+	font-size: 50px;
+}
+
+
+.logobanda {
+	display: inline-block;
+	width: 100px;
+	transition: width 3s;
+}
+
+.logobanda:hover {
+	width: 200px;
+
+}
+
+.table{
+	background-color: white;
+}
+
+.tablas table {
+	margin-top:0;
+	background: white;
+	text-align: center;
+  	padding: 1%;
+  	display: inline-block;
+}
+
+.contenedoreinfo {
+	
+
+}
