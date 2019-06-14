@@ -330,6 +330,17 @@ ul .submenu li {
 }
 
 .contenedoreinfo {
-	
+	width: 98%;
+	padding: 2%;
+}
 
+.albumtapa {
+	width: 40%;
+	overflow: auto;
+}
+
+.infoalbum {
+	width: 50%;
+	background-color: white;
+	float: left;
 }
