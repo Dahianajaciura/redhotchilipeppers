@@ -297,6 +297,7 @@ ul .submenu li {
 	width: 80%;
 	padding: 1%;
 	display: inline-block;
+	background-color: white;
 
 }
 
@@ -306,13 +307,13 @@ ul .submenu li {
 }
 
 
-.logobanda {
+header .logobanda {
 	display: inline-block;
 	width: 100px;
 	transition: width 3s;
 }
 
-.logobanda:hover {
+header .logobanda:hover {
 	width: 200px;
 
 }
@@ -340,7 +341,8 @@ ul .submenu li {
 }
 
 .infoalbum {
-	width: 50%;
+	width: 40%;
 	background-color: white;
-	float: left;
+	
 }
+
