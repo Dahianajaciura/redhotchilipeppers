@@ -241,11 +241,9 @@ section .fotos {
 	font-family: 'Barlow Condensed', sans-serif;
 	font-size: 20px;
 	line-height: 25px;
- 	height: 500px;
- 	width: 1000px;
-  	padding: 30px;
-  	border: none;
-  	margin: 0 auto; 
+ 	width: 50%;
+ 	height: 60%;
+  	padding: 1%;
   	overflow: scroll; 
   	float: left;
 
@@ -253,8 +251,8 @@ section .fotos {
 
 
 .fotohistoria img{
-	width:300px;
-	height: 300px;
+	text-align: center;
+	width:60%;
 	padding: 5%;
 	float: left;
 }
@@ -262,6 +260,7 @@ section .fotos {
 .fotohistoria {
 	float: left;
 	text-align: center;
+	width: 40%;
 }
 
 .todos li a{
@@ -313,11 +312,11 @@ ul .submenu li {
 .logobanda {
 	display: inline-block;
 	width: 100px;
-	transition: width 4s;
+	transition: width 1s;
 }
 
  .logobanda:hover {
-	width: 200px;
+	width: 110px;
 
 }
 
@@ -374,8 +373,115 @@ ul .submenu li {
 	height: 50px;
 }
 
+.contenedortapa {
+	display: flex;
+	flex-flow: row wrap;
+	max-width:960px;
+	width:90%;
+	list-style-type:none;
+	margin:20px auto;
+	padding:0;
+	background-color: white; 
+
+}
+
+.item{
+	height:200px;
+	width:200px;
+	line-height:200px;
+	font-size:20px;
+	color:black;
+	text-align:center;
+	margin:5px 2px;	
+}
+
 
 .botonarriba {
 	width: 1519px;
 	text-align: center;
+}
+
+
+.rollo img {
+	width: 100%;
+	}
+
+.logobanda img {
+	width: 100%;
+}
+.logobandaarriba{
+	text-align: center;
+}
+.logobandaarriba a {
+	display: none;
+	width: auto;
+	
+}
+
+@media only screen and (max-width: 1200px ) {
+
+	.logobanda img {
+	width: 80%;
+}
+	
+}
+
+@media only screen and (max-width: 1024px ) {
+
+
+
+
+}
+
+@media only screen and (max-width: 768px ) {
+
+.logobandaarriba img {
+	width: 80%;
+}
+
+ul.menu li.logobanda  {
+	display: none;
+}
+
+.logobandaarriba a {
+	display: inline-block;
+	text-align: center;
+}
+
+	
+}
+
+.menu a {
+	font-size: 20px;
+}
+
+}
+
+@media only screen and (max-width: 400px ) {
+
+.rollo img{
+	width: 70%;
+}
+
+
+.textohistoria2 {
+	display: inline-block;
+	background-color: white;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 12px;
+	width: 80%;
+  	padding: 10%;
+  	overflow: scroll; 
+  	float: left;
+
+}
+
+.textohistoria {
+	display: none;
+}
+
+.fotohistoria img {
+	display: none;
+}
+
 }
