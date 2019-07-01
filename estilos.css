@@ -91,7 +91,6 @@ b {
   width: 100%;
   height: 70px;
   color: white;
-  
   bottom:0px;
 }
 
@@ -114,7 +113,6 @@ div.centratabla{
 
 div.centraTabla table {
 	margin: 0 auto;
-
 	background: none;
 }
 
@@ -128,7 +126,6 @@ div.centraTabla table {
   	margin: 0 auto; 
   	overflow: scroll;
 }
-
 
 
 .slider {
@@ -197,12 +194,11 @@ section .fotos {
 	float: left;
 	width: 23%;
  	padding: 1%;
- 	
-
+ 
 }
 
 .columna img{
- width: 100%
+ width: 100%;
 	}
 
 .contenedorintegrantes {
@@ -226,11 +222,20 @@ section .fotos {
 
 .contenedorcollage{
 	text-align: center;
+	font-size: 30px;
+	
 }
 
 .contenedorhistoria{
 	width: 100%;
 	padding: 5%;
+	overflow: auto;
+}
+
+.textoeimagen {
+	width: 99%;
+	padding: 1%;
+	text-align: center;
 	overflow: auto;
 }
 
@@ -242,25 +247,26 @@ section .fotos {
 	font-size: 20px;
 	line-height: 25px;
  	width: 50%;
- 	height: 60%;
+ 	height: 80%;
   	padding: 1%;
   	overflow: scroll; 
-  	float: left;
-
-}
-
-
-.fotohistoria img{
-	text-align: center;
-	width:60%;
-	padding: 5%;
 	float: left;
+	text-align: left;
+
 }
 
 .fotohistoria {
-	float: left;
-	text-align: center;
 	width: 40%;
+	padding: 3%;
+	float: left;
+
+}
+
+.fotohistoria img{
+	padding: 1%;
+	width: 80%;
+	float: left;
+
 }
 
 .todos li a{
@@ -281,7 +287,6 @@ ul .submenu li {
 
 }
 
-
 .play {
 	padding: 5%;
 	width:90%;
@@ -289,8 +294,7 @@ ul .submenu li {
 }
 
 .videoplay 	{
-	width: 49%;
-	padding: 1%;
+	width: 100%;
 	float:left;
 }
 
@@ -355,22 +359,23 @@ ul .submenu li {
 	
 }
 
-.botonabajo ion-icon {
+.contenedorboton {
+	width: 100%;
+	background-color: white;
 	text-align: center;
-	width: 50px;
-   	height: 50px; 
 }
 
-.botonabajo {
-	width: 1519px;
+.botonabajo ion-icon {
 	text-align: center;
+	width: 10%;
+   	height: 10%; 
 }
 
 
 .botonarriba ion-icon {
 	text-align: center;
-	width: 50px;
-	height: 50px;
+	width: 10%;
+	height: 10%;
 }
 
 .contenedortapa {
@@ -395,13 +400,6 @@ ul .submenu li {
 	margin:5px 2px;	
 }
 
-
-.botonarriba {
-	width: 1519px;
-	text-align: center;
-}
-
-
 .rollo img {
 	width: 100%;
 	}
@@ -418,18 +416,36 @@ ul .submenu li {
 	
 }
 
+.contenedorcollage 	{
+	width: 100%;
+	background-color: white;
+	text-align: center;
+}
+
 @media only screen and (max-width: 1200px ) {
 
 	.logobanda img {
 	width: 80%;
 }
+	.videoplay {
+	width: 90%;
+}
+
+	.videoplay video {
+	width: 100%;
+	}
 	
 }
 
 @media only screen and (max-width: 1024px ) {
 
+.videoplay {
+	width: 90%;
+}
 
-
+.videoplay video {
+	width: 100%;
+	}
 
 }
 
@@ -448,40 +464,113 @@ ul.menu li.logobanda  {
 	text-align: center;
 }
 
-	
-}
-
 .menu a {
 	font-size: 20px;
 }
+.textohistoria {
+	font-size: 15px;
+}
+
+.videoplay {
+	width: 90%;
+}
+
+.videoplay video {
+	width: 100%;
+	padding: 5%;
+}
+
+
+
+
+
 
 }
 
 @media only screen and (max-width: 400px ) {
 
 .rollo img{
-	width: 70%;
+	width: 100%;
 }
 
-
-.textohistoria2 {
-	display: inline-block;
-	background-color: white;
-	font-family: 'Barlow Condensed', sans-serif;
-	font-size: 12px;
-	width: 80%;
-  	padding: 10%;
-  	overflow: scroll; 
-  	float: left;
-
+.textoeimagen {
+	width: 95%;
 }
 
 .textohistoria {
+	font-size: 12px;
+	width: 90%;
+	line-height: 20px;
+}
+
+.contenedortapa {
 	display: none;
 }
+
+.albumtapa{
+width: 100%;
+
+}
+
+.infoalbum {
+	width: 100%;
+}
+
+
+.item {
+	height: 10%;
+	padding: 1%;
+}
+
 
 .fotohistoria img {
-	display: none;
+	width: 80%;
+	padding: 5%;
+	text-align: center;
 }
 
+h1 {
+	font-size: 15px;
+}
+
+
+.integrante img{
+	padding: 5%;
+	width: 100%;
+}
+
+.textointegrante {
+	width: 95%;
+	font-size: 12px;
+	padding: 2%;
+}
+
+.contenedorcollage {
+	width: 100%;
+	font-size: 25px;
+}
+
+.videoplay {
+	width: 90%;
+}
+
+.videoplay video {
+	width: 100%;
+	padding: 5%;
+}
+
+table .thead .caption h1 strong {
+	font-size: 40px;
+}
+
+.tablashop {
+	width: 80%;
+	padding: 10%;
+	border: none;
+}
+
+.tablashop img {
+	width: 80%;
+	padding: 10%;
+	}
 }
