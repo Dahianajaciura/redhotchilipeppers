@@ -74,35 +74,33 @@
 
             <fieldset>
             
-            <legend> <strong> TU REMERA OFICIAL </strong> </legend>
+            <legend> <h1> TU REMERA OFICIAL </h1> </legend>
     	
     	      <img src = "imagenes/remera.jpg" alt = "reme" />
 					
     	
-    	    <br>
-    		  <div>
+    
+    		  <div class="hombreymujer">
      	    <label>Hombre</label>
-              <input type="radio" name="sexo" value="hombre" />
-    		  </div>
- 
-    		  <div>
+          <input type="radio" name="sexo" value="hombre" />
+    		  
     	    <label>Mujer</label>
           <input type="radio" name="sexo" value="mujer" />
     	    </div>
-          </br>
+          
 
-		      <br>
-    	    <div>Nombre </div>
+		      <div class="nombreyapellido">
+    	    <br> Nombre </br> 
           <input type="text" name="nombre"/>
-		      <div>Apellido </div>
+		      <br> Apellido </br>
           <input type="text" name="apellido"/>
-    	    <div> Email </div>
+    	     <br> Email </br> 
           <input type="Email" name="email"/>
-    	    </br>
+    	    </div>
 
     	    <br>
-    	    <div> Talle </div>
-          <select name="talles">
+    	    <div class="talle"> Talle </div>
+           <select name="talles" class="talles">
           <option value="L">Large</option>
           <option value="M">Medium</option>
           <option value="S">Small</option>
@@ -110,7 +108,7 @@
   	      </br>	
 
            <br>
-  	        <input type="submit" value="Enviar formulario"/>
+  	        <input type="submit" value="Enviar formulario" class= "boton">
            </br>
 
            </fieldset>
@@ -133,7 +131,8 @@
               </strong> 
             </div>
      
-               <br>
+              <div class="redessociales">
+
                 <a href="https://www.facebook.com/ChiliPeppers/">
                   <ion-icon name="logo-facebook"></ion-icon>
                 </a>
@@ -142,10 +141,11 @@
                   <ion-icon name="logo-twitter"></ion-icon>
                 </a>
                 
-            <a href="https://www.instagram.com/chilipeppers/?hl=es-la/">
+                <a href="https://www.instagram.com/chilipeppers/?hl=es-la/">
                   <ion-icon name="logo-instagram"></ion-icon>
                 </a>
-                </br>
+              </div>
+
              </div>
 
 
