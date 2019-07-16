@@ -1,13 +1,4 @@
-body {
-	background-image: url("fondo.jpg");
-	background-repeat ;
-	font-family: arial;
-}
 
-ul.menu li{
-	display: inline-block;
-	font-size: 18px;
-}
 
 .textohistoria {
 	background-color: white

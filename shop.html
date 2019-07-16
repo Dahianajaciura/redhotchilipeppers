@@ -1,22 +1,27 @@
 <html>
-  <head>
-      <link rel="shortcut icon" href="imagenes/favicon.ico">
-      <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed|Shadows+Into+Light&display=swap" rel="stylesheet">
-      <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script> 
-	    <meta charset="utf-8">
-	    <link rel="stylesheet" href="estilos.css" />
-      <meta name = "viewport" content = "width=device-width,initial-scale=1.0"/>
-      <title> Red Hot Chili Peppers </title>
-	
-  </head>
 
-	<body>
+<head>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script type="text/javascript"src="bootstrap/js/bootstrap.js"></script>
+    <link rel="shortcut icon" href="imagenes/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed|Shadows+Into+Light&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="estilos.css" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title> Red Hot Chili Peppers </title>
+
+</head>
+
+<body>
     <header>
-      <div class="logobandaarriba">
+        <div class="logobandaarriba">
             <a href="index.html">
-            <img src="imagenes/logo.png" alt="logo" />
+                <img src="imagenes/logo.png" alt="logo" />
             </a>
-          </div>
+        </div>
         <div style="text-align: center;">
             <ul class="menu">
                 <li>
@@ -68,93 +73,90 @@
         </div>
     </header>
 
-
-            <div class= "tablashop" style="text-align: center;">	
-            <form>
+    <div class="tablashop" style="text-align: center;">
+        <form>
 
             <fieldset>
-            
-            <legend> <h1> TU REMERA OFICIAL </h1> </legend>
-    	
-    	      <img src = "imagenes/remera.jpg" alt = "reme" />
-					
-    	
-    
-    		  <div class="hombreymujer">
-     	    <label>Hombre</label>
-          <input type="radio" name="sexo" value="hombre" />
-    		  
-    	    <label>Mujer</label>
-          <input type="radio" name="sexo" value="mujer" />
-    	    </div>
-          
 
-		      <div class="nombreyapellido">
-    	    <br> Nombre </br> 
-          <input type="text" name="nombre"/>
-		      <br> Apellido </br>
-          <input type="text" name="apellido"/>
-    	     <br> Email </br> 
-          <input type="Email" name="email"/>
-    	    </div>
+                <legend>
+                    <h1> <strong> TU REMERA OFICIAL </strong> </h1> 
+                </legend>
+                    <div class="remera">
+                    <img src="imagenes/remera.jpg" alt="reme" />
+                    </div>
+                <div class="datospersonales">
+                     DATOS PERSONALES 
+                </div>
+                    <div class="nombreyapellido">
+                        <br> Nombre </br>
+                        <input type="text" name="nombre" />
+                        <br> Apellido </br>
+                        <input type="text" name="apellido" />
+                        <br> Email </br>
+                        <input type="Email" name="email" />
+                    </div>
+                
 
-    	    <br>
-    	    <div class="talle"> Talle </div>
-           <select name="talles" class="talles">
-          <option value="L">Large</option>
-          <option value="M">Medium</option>
-          <option value="S">Small</option>
-  	      </select>
-  	      </br>	
+                    <br>
+                    <div class="laremera">
+                        LA REMERA
+                    </div>
+                    <div class="hombreymujer">
+                        <label>Hombre</label>
+                        <input type="radio" name="sexo" value="hombre" />
 
-           <br>
-  	        <input type="submit" value="Enviar formulario" class= "boton">
-           </br>
+                        <label>Mujer</label>
+                        <input type="radio" name="sexo" value="mujer" />
+                    </div>
 
-           </fieldset>
-    
-          </div>
-     
-          </form>
-      
-	
+                <div class="talle"> Talle </div>
+                <select name="talles" class="talles">
+                    <option value="L">Large  ($350+iva) </option>
+                    <option value="M">Medium ($250+iva) </option>
+                    <option value="S">Small ($200+iva) </option>
+                </select>
+                </br>
 
- 
-  
-  <footer id= "footer">
-          <div style="text-align: center;">
-      
-   
-            <div class="allrights"> 
-              <strong>
+                <br>
+                <div class="botonenviarformulario">
+                <input type="submit" value="Enviar formulario" class="boton">
+                </div>
+                </br>
+
+            </fieldset>
+
+    </div>
+
+    </form>
+
+    <footer id="footer">
+        <div style="text-align: center;">
+
+            <div class="allrights">
+                <strong>
                 © 2019 RHCP - All Rights Reserved
-              </strong> 
+                </strong>
             </div>
-     
-              <div class="redessociales">
+
+            <div class="redessociales">
 
                 <a href="https://www.facebook.com/ChiliPeppers/">
-                  <ion-icon name="logo-facebook"></ion-icon>
+                    <ion-icon name="logo-facebook"></ion-icon>
                 </a>
-          
+
                 <a href="https:twitter.com/chilipeppers/">
-                  <ion-icon name="logo-twitter"></ion-icon>
+                    <ion-icon name="logo-twitter"></ion-icon>
                 </a>
-                
+
                 <a href="https://www.instagram.com/chilipeppers/?hl=es-la/">
-                  <ion-icon name="logo-instagram"></ion-icon>
+                    <ion-icon name="logo-instagram"></ion-icon>
                 </a>
-              </div>
+            </div>
 
-             </div>
+        </div>
 
+    </footer>
 
-  </footer>
-  
-  </body>
-    
+</body>
+
 </html>
-
-
-
-
