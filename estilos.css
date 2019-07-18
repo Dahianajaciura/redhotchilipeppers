@@ -30,7 +30,7 @@ ul.menu li{
 	display: inline-block;
 	padding: 0;
 	font-size: 30px;
-	font-family: 'Shadows Into Light';
+	font-family: 'Shadows Into Light', sans-serif;
 	position: relative;
 }
 
@@ -123,6 +123,7 @@ section .fotos {
 	background-color: black;
 	color: white;
 	font-size: 18px;
+	text-align: center;
 }
 
 .irahistoria p:hover {  
@@ -189,22 +190,26 @@ footer a{
 	color: red;
 }
 
+.imagenhistory h3 {
+	color:red;
+	font-family: "Shadows Into Light", sans-serif;
+	font-size: 35px;
+	text-align: center;
+	padding-top: 2%;
+}
+
 .textohistoria {
 	background-color: white;
 	font-family: 'Barlow Condensed', sans-serif;
 	font-size: 20px;
 	line-height: 25px;
- 	width: 50%;
- 	height: 70%;
+ 	width: 100%;
   	padding: 2%;
-  	overflow: auto; 
-	float: left;
 	text-align: left;
 }
 
 .fotohistoria {
 	width: 80%;
-	float: left;
 	padding:1% 10% 0% 10%;
 }
 
@@ -238,10 +243,10 @@ footer a{
 }
 
 
-.textointegrante h2 {
+.textointegrante h3 {
 	color: red;
-	font-family: Shadows Into Light;
-	font-size: 30px;
+	font-family: Shadows Into Light, sans-serif;
+	font-size: 35px;
 	display: block;
 	padding-bottom: 0;
 	padding-top: 2%;
@@ -262,8 +267,8 @@ footer a{
 	display: block;
 	width: 100%;
 	padding-left: 10%;
-	padding-top: 5%;
-	padding-bottom: 5%;
+	padding-top: 1%;
+	padding-bottom: 2%;
 }
 
 .contenedorintegrantes {
@@ -279,17 +284,27 @@ footer a{
 }
 
 .integrante{
-	width: 45%;
+	width: 50%;
 	float: left;
-	padding: 2%;
+	padding:2%;
+
+}
+
+.integrante img {
+	width: 45%;
+
 }
 
 .integrante img:hover {
-	 filter: sepia(60%);
+	width:50%;
+	background-color: red;
+	border-radius: 200px;
+	padding:3%;
 }
 
+
 .textointegrante{
-	width:45%;
+	width:50%;
 	padding: 2%;
 	float: left;
 	text-align: left;
@@ -306,7 +321,7 @@ footer a{
 	text-align: center;
 }
 
-.contenedorcollage h2 {
+.contenedorcollage h1 {
 	font-size: 80px;
 	color: white;
 }
@@ -345,11 +360,25 @@ footer a{
 	text-align: center;
 	padding-top: 2%;
 	color: red;
-	font-family: Shadows Into Light;
+	font-family: Shadows Into Light, sans-serif;
 }
 
 .container {
+	padding-top: 2%;
+}
+
+.imagenhistory img {
+	width: 100%;
+}
+
+.imagenhistory img:hover {
+	filter: sepia(50%);
+}
+
+.imagenhistory h2 {
+	text-align: center;
 	padding-top: 5%;
+	color:red;
 }
 
 .miembrosanteriores h2{
@@ -420,9 +449,12 @@ ul .submenu li {
 	padding: 3%;
 }
 
-.infoalbum h2 {
-	font-family: Shadows Into Light;
+.infoalbum h3 {
+	font-family: Shadows Into Light, sans-serif;
+	font-size: 35px;
+
 }
+
 
 .contenedorboton {
 	width: 100%;
@@ -478,7 +510,7 @@ ul .submenu li {
 }
 
 .contenedortapa h1 {
-	font-family: 'Barlow Condensed';
+	font-family: 'Barlow Condensed', sans-serif;
 	font-size: 25px;
 	color: red;
 }
@@ -507,18 +539,18 @@ ul .submenu li {
 /*show*/
 
 .play {
-	padding: 5%;
+	padding: 1%;
 	width:100%;
 	overflow: auto;
 }
 
-.videoplay 	{
+.videoplay video {
 	width: 100%;
-	float:left;
+	
 }
 
 .tablashow 	{
-	margin: auto;
+	margin: 2%;
 	width: 90%;
 	padding: 1%;
 	display: inline-block;
@@ -527,7 +559,7 @@ ul .submenu li {
 }
 .tablashow h1 {
 	font-size: 40px;
-	font-family: Shadows Into Light;
+	font-family: Shadows Into Light, sans-serif;
 	background-color: white;
 	text-align: center;
 }
@@ -557,14 +589,6 @@ ul .submenu li {
 	width: 110px;
 }
 
-.contenedorintegrantes .integrante img {
-	width: 45%;
-	transition: width 1s;	
-}
-
-.contenedorintegrantes .integrante img:hover {
-	width: 50%;
-}
 
 .tablas table {
 	margin-top:0;
@@ -572,6 +596,10 @@ ul .submenu li {
 	text-align: center;
   	padding: 1%;
   	display: inline-block;
+}
+.contenedorcarousel {
+	width: 100%;
+	padding: 10%;
 }
 
 /*shop*/
@@ -591,7 +619,7 @@ ul .submenu li {
         background:black;
         border:0px;
         border-radius: 10px 10px 10px 10px;
-        font-family: Shadows Into Light;
+        font-family: Shadows Into Light, sans-serif;
         width: 50%;      
 }
 
@@ -656,35 +684,124 @@ ul .submenu li {
 
 .tablashop h1 {
 	font-size: 30px;
-	font-family: Shadows Into Light;
+	font-family: Shadows Into Light, sans-serif;
 }
 
+.modal-body {
+	font-size: 20px;
+	font-family: 'Barlow Condensed', sans-serif;
+}
 
+.modal-header {
+	font-size: 45px;
+	font-family: Shadows Into Light, sans-serif;
+	color:red;
+}
 
+.botoncomprar {
+	background-color: red;
+	color:white;
+	border-radius: 10px 10px 10px 10px;
+	padding: 2% 10% 2% 10%;
+}
+
+.botoncomprar:hover {
+	background-color: black;
+	color:white;
+}
+
+.botonclose {
+	background-color: grey;
+	color:white;
+	border-radius: 10px 10px 10px 10px;
+	padding:2% 10% 2% 10%;
+}
+
+.botonclose:hover {
+	background-color: black;
+	color:white;
+}
 
 
 @media only screen and (max-width: 1200px ) {
-	.logobanda img {
+.logobanda img {
 	width: 80%;
 }
-	.videoplay {
-	width: 90%;
-}
-	.videoplay video {
+
+.videoplay video {
 	width: 100%;
-	}
+}
 	
+.albumtapa img{
+	width: 70%;
+	padding: 5%;
+}
+
+.infoalbum h3 {
+	font-size: 25px;
+}
+
+.infoalbum {
+	width: 50%;
+	padding: 2% 0% 0% 0%;
+}
+
+.textointegrante {
+	width: 45%;
+}
+
+.integrante {
+	padding: 2% 5% 0% 2%;
+}
+
+.integrante img{
+	padding: 5%;
+	width: 70%;
+}
+
+.integrante img:hover {
+	width:70%;
+	background-color: red;
+	border-radius: 200px;
+	padding:3%;
+}
+
 }
 
 @media only screen and (max-width: 1024px ) {
-.videoplay {
-	width: 90%;
-}
 
 .videoplay video {
 	width: 100%;
 	}
 
+.albumtapa img {
+	width: 80%;
+}
+
+.infoalbum h3 {
+	font-size: 25px;
+}
+
+.infoalbum {
+	width: 50%;
+
+}
+
+.integrante {
+	padding: 2% 5% 0% 2%;
+}
+
+.integrante img{
+	padding: 5%;
+	width: 80%;
+}
+
+.integrante img:hover {
+	width:80%;
+	background-color: red;
+	border-radius: 200px;
+	padding:3%;
+}
 }
 
 @media only screen and (max-width: 768px ) {
@@ -708,18 +825,74 @@ ul.menu li.logobanda  {
 	font-size: 15px;
 }
 
-.videoplay {
-	width: 90%;
-}
-
 .videoplay video {
 	width: 100%;
 	padding: 5%;
 }
 
+.albumtapa img{
+	width: 90%;
+}
+
+.infoalbum h3 {
+	font-size: 25px;
+}
+
+.infoalbum ol {
+	font-size: 12px;
+}
+
+.infoalbum {
+	padding: 0%;
+	width: 50%;
+}
+
+.logobandaarriba {
+	padding: 3%;
+}
+
+.columna h2 {
+	font-size: 20px;
+}
+
+.contenedorcollage h1 {
+	font-size: 60px;
+	padding-top: 2%;
+}
+
+.textointegrante p {
+	font-size: 15px;	
+}
+
+.textointegrante h3 {
+	font-size: 25px;
+	padding-bottom: 2%;
+
+}
+
+.integrante {
+	padding: 2% 5% 0% 2%;
+}
+
+.integrante img{
+	padding: 5%;
+	width: 100%;
+}
+
+.integrante img:hover {
+	width:100%;
+	background-color: red;
+	border-radius: 200px;
+	padding:3%;
+}
+
 }
 
 @media only screen and (max-width: 400px ) {
+
+.menu ul {
+	padding: 1%;
+}
 
 .rollo img{
 	width: 100%;
@@ -748,23 +921,27 @@ width: 100%;
 	width: 100%;
 }
 
+.infoalbum h3{
+	font-size: 25px;
+	padding-left: 5%;
+}
+
+.infoalbum ol {
+	font-size: 12px;
+}
+
 .item {
 	height: 10%;
 	padding: 1%;
 }
 
-.fotohistoria img {
-	width: 100%;
-	padding: 10% 70%;
-	text-align: center;
-}
-
-h1 {
-	font-size: 15px;
-}
-
 .integrantesactual h2 {
-	font-size: 20px;
+	font-size: 35px;
+}
+
+.integrante {
+	padding: 0% 10% 0% 20%;
+    width: 90%;
 }
 
 .integrante img{
@@ -775,7 +952,7 @@ h1 {
 .textointegrante {
 	width: 100%;
 	font-size: 15px;
-	padding: 2%;
+	padding: 2% 5% 2% 2%;
 }
 
 .textointegrante p {
@@ -786,6 +963,11 @@ h1 {
 	padding: 0% 5%;
 }
 
+.textointegrante h3 {
+	font-size: 30px;
+	text-align: center;
+}
+
 .columna {
 	text-align: center;
     float: left;
@@ -793,13 +975,13 @@ h1 {
     padding: 0% 1% 0% 0%;
 }
 
-.columna h1 {
-	font-size: 25px;
+.columna h2 {
+	font-size: 20px;
     padding: 1%;
 }
 
 .contenedorfloatintegrantes {
-	padding: 0%
+	padding: 0% 3% 2% 3%;
 }
 
 .contenedorcollage {
@@ -808,20 +990,17 @@ h1 {
 	padding: 10%;
 }
 
-.contenedorcollage h2 {
-	font-size: 36px;
+.contenedorcollage h1 {
+	font-size: 35px;
 }
 
-.integrante {
-	width: 100%;
-}
 .videoplay {
 	width: 90%;
 }
 
 .videoplay video {
 	width: 100%;
-	padding: 5%;
+	padding: 5% 0% 2% 10%;
 }
 
 table .thead .caption h1 strong {
@@ -835,8 +1014,8 @@ table .thead .caption h1 strong {
 }
 
 .tablashop img {
-	width: 80%;
-	padding: 10%;
+	width: 90%;
+	padding: 0%;
 }
 
 .tablashow {  
@@ -856,7 +1035,15 @@ table .thead .caption h1 strong {
 }
 
 .miembrosanteriores h2 {
-	font-size: 25px;
+	font-size: 35px;
+}
+
+.albumtapa img {
+	width: 100%;
+}
+
+.logobandaarriba {
+	padding: 5%;
 }
 
 }
