@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+     <head>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script type="text/javascript"src="bootstrap/js/bootstrap.js"></script>
+    <link rel="shortcut icon" href="imagenes/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed|Shadows+Into+Light&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos.css" />
+    <meta name = "description"
+    content = "Red Hot Chili Peppers es una banda de rock alternativo y funk rock estadounidense formada en 1983 en Los Ángeles, California. Sus integrantes son, actualmente, el vocalista Anthony Kiedis , el guitarrista Josh Klinghoffer , el bajista Michael Flea Balzary y el baterista Chad Smith . El estilo musical de la banda fusiona el funk tradicional con el rock y el rock alternativo incluyendo elementos de otros géneros como el rap, pop rock, heavy metal, dance, punk, hip hop e indie rock. Son considerados los inventores del punk funk." >
+    <meta name = "keywords"
+    content = "HTML, inventores del punk funk, rock alternativo, california, 1983, Red hot Chili Peppers" >
+    <meta name="google-site-verification" content="tKwv-tyi3v2C33sKQ3By0H8dAzjSw_OOkXDvi9ZUEiQ" />
+    </head>
+    <body>
+        <div class= "contenedor_error">
+            <div class="texto_error">
+                <h2> <strong> 404 </strong>  </h2>
+
+                <h3>Error interno del servidor</h3>
+            </div>
+        
+            <div class="imagen_error">
+                <a href="index.html"> 
+                    <img src="imagenes/chilitriste.png" alt="chili triste">
+                </a>
+            </div>
+            <div class="error_texto">
+                <p> <strong> ¡Vaya! Algo salió mal.</strong> <br /><br />Tocá el chili, para volver a la página principal, o no dudes en contactarte con nosotros si el problema persiste.</p>
+            </div>
+        </div>
+    </body>
+</html>
+   

@@ -162,6 +162,55 @@ footer a{
 	font-size: 20px;
 }
 
+
+.canciones_mas_escuchadas  {
+	background-color: grey;
+	color: white;
+	text-align: center;
+	padding: 1%;
+
+}
+
+.canciones_mas_escuchadas  p {
+	padding: 1%;
+	background-color: #636161;
+	width: 50%;
+	color: white;
+
+}
+
+.contenedor_canciones {
+	width: 100%;
+	text-align: center;
+	overflow: auto;
+	
+}
+
+.texto_cancion {
+	width: 50%;
+	float: left;
+	text-align: left;
+	font-size: 20px;
+	padding: 3% 5% 3% 5%;
+
+}
+
+
+.imagen_cancion {
+
+	width:50%;
+	padding: 2% 10% 2% 10%;
+	float: left;
+	text-align: center;
+	background-color: white;
+}
+
+
+.imagen_cancion:hover {
+	filter: saturate(200%);
+
+}
+
 /*historia*/
 
 .historiaresumen {
@@ -454,7 +503,9 @@ ul .submenu li {
 	font-size: 35px;
 
 }
-
+.contenedordisco h1 {
+	display: none;
+}
 
 .contenedorboton {
 	width: 100%;
@@ -550,8 +601,8 @@ ul .submenu li {
 }
 
 .tablashow 	{
-	margin: 2%;
-	width: 90%;
+	margin: auto;
+	width: 100%;
 	padding: 1%;
 	display: inline-block;
 	background-color: grey;
@@ -562,6 +613,11 @@ ul .submenu li {
 	font-family: Shadows Into Light, sans-serif;
 	background-color: white;
 	text-align: center;
+	padding: 2%;
+}
+
+.fotoscarousel {
+	padding-bottom: 50px;
 }
 
 .tablashow h2 {
@@ -722,10 +778,54 @@ ul .submenu li {
 	color:white;
 }
 
+/*pagenotfound*/
+
+.contenedor_error {
+	width: 45%;
+    padding: 0% 5%;
+    text-align: center;
+    border: 10px solid #b3b3b3;
+    border-radius: 4px;
+    margin: 0 auto;
+    box-shadow: 5px 10px white;
+    background: #fcfcfc;
+
+}
+
+.texto_error h2 {
+	padding: 2%;
+	font-size: 100px;
+	color: red;
+}
+
+
+.texto_error h3 {
+	font-size: 40px;
+	color: gray;
+	text-align: center;
+
+}
+
+
+.imagen_error img {
+	width: 50%;
+	text-align: center;
+}
+
+.error_texto {
+	padding: 10%;
+	font-size: 25px;
+	text-align: center;
+}
+
 
 @media only screen and (max-width: 1200px ) {
 .logobanda img {
 	width: 80%;
+}
+
+.texto_cancion {
+	font-size: 15px;
 }
 
 .videoplay video {
@@ -770,6 +870,7 @@ ul .submenu li {
 
 @media only screen and (max-width: 1024px ) {
 
+
 .videoplay video {
 	width: 100%;
 	}
@@ -805,12 +906,50 @@ ul .submenu li {
 }
 
 @media only screen and (max-width: 768px ) {
+
+
+.menu ul li img {
+	display: none;
+}
+
+ul.menu li {
+	padding: 0% 1%;
+	background-color: black;
+}
+
+ul.menu li:hover {
+	background-color: red;
+}
+
+
+header ul.menu a{
+	color: white !important;
+}
+
+ul.menu {
+	padding: 2% 0% 0% 0%;
+}
+
+
+.submenu .todos li a {
+	background-color: black;
+}
+
+.submenu .todos li a:hover {
+	background-color: red;
+}
+
 .logobandaarriba img {
 	width: 80%;
 }
 
 ul.menu li.logobanda  {
 	display: none;
+}
+
+.logobandaarriba img {
+
+	width: 20%;
 }
 
 .logobandaarriba a {
@@ -827,7 +966,7 @@ ul.menu li.logobanda  {
 
 .videoplay video {
 	width: 100%;
-	padding: 5%;
+	padding: 2%;
 }
 
 .albumtapa img{
@@ -885,21 +1024,84 @@ ul.menu li.logobanda  {
 	border-radius: 200px;
 	padding:3%;
 }
-
+.fotohistoria img{
+	display: none;
+}
 }
 
 @media only screen and (max-width: 400px ) {
+.texto_cancion {
+	width: 100%;
+	font-size: 20px;
+}
 
-.menu ul {
-	padding: 1%;
+.imagen_cancion {
+	width: 100%;
 }
 
 .rollo img{
-	width: 100%;
+	display: none;
 }
 
 .textoeimagen {
 	width: 95%;
+}
+
+.submenu .todos li a {
+	color: black;
+}
+
+.submenu .todos li a:hover {
+	background-color: red;
+}
+
+.menu ul li img {
+	display: none;
+}
+
+ul.menu li {
+	padding: 0% 1%;
+	background: black;
+}
+
+ul.menu li:hover {
+	background: red;
+}
+
+
+header ul.menu a{
+	color: white !important;
+}
+
+ul.menu {
+	padding: 2% 0% 0% 0%;
+}
+
+.logobandaarriba {
+	padding: 1%;
+}
+
+.logobandaarriba img {
+
+	width: 20%;
+}
+
+.contenedordisco h1{
+	font-size: 40px;
+	font-family: 'Barlow Condensed', sans-serif;
+	text-align: center;
+	display: block;
+	padding: 2%;
+	background-color: gray;
+	color: white;
+}
+
+.textohistoriacompleto {
+	padding: 5% 10% 5% 10%;
+}
+
+.textohistoriacompleto p {
+	font-size: 20px;
 }
 
 .textohistoria {
@@ -927,7 +1129,7 @@ width: 100%;
 }
 
 .infoalbum ol {
-	font-size: 12px;
+	font-size: 20px;
 }
 
 .item {
@@ -957,6 +1159,7 @@ width: 100%;
 
 .textointegrante p {
 	padding: 5%;
+	font-size: 20px;
 }
 
 .textointegrante h2 {
@@ -994,13 +1197,9 @@ width: 100%;
 	font-size: 35px;
 }
 
-.videoplay {
-	width: 90%;
-}
-
 .videoplay video {
 	width: 100%;
-	padding: 5% 0% 2% 10%;
+	padding: 0% 3% 0% 3%;
 }
 
 table .thead .caption h1 strong {
@@ -1018,8 +1217,8 @@ table .thead .caption h1 strong {
 	padding: 0%;
 }
 
-.tablashow {  
-	width: 80%;
+.tablashow {
+	width: 92%;
 }
 
 .tablashow h1 {
@@ -1042,8 +1241,18 @@ table .thead .caption h1 strong {
 	width: 100%;
 }
 
-.logobandaarriba {
-	padding: 5%;
+.fotohistoria img {
+	display: none;
 }
+
+.imagenhistory p {
+	font-size: 20px;
+	padding: 2% 10% 10% 5%;
+}
+
+.contenedorboton {
+	display: none;
+}
+
 
 }
