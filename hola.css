@@ -1,0 +1,13 @@
+.contenedor {
+		width: 50%;
+		padding: 10%;
+		background-color: grey;
+	
+	
+}
+
+.contenedor p {
+	color: white;
+	font-size: 50px;
+}
+
